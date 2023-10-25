@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banderas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.colombia{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    flex-direction: column;
+}
+
+.argentina{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    flex-direction: column;
+
+}
+.peru{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+     
+}
+.mexico{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.belgium{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.españa{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    flex-direction: column;
+}
+.amarilloc{
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+    
+}
+.azulc{
+    width: 100%;
+    height: 90px;
+    background-color: blue;
+}
+.rojoc{
+    width: 100%;
+    height: 58px;
+    background-color: red;
+}
+.celeste{
+    width:100%;
+    height: 63px;
+    background-color: rgb(7, 193, 226);
+}
+.blancoa{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+.celestee{
+    width: 100%;
+    height: 65px;
+    background-color: rgb(7, 193, 226);
+}
+
+
+.rojop{
+    width: 100px;
+    height: 100%;
+    background-color: red;
+
+}
+.blancop{
+    width: 100px;
+    height: 100%;
+    background-color: white;
+    
+}
+.rojoop{
+    width: 100px;
+    
+    background-color: red;
+}
+.verde{
+    background-color: green;
+    width: 100%;
+    height: 90px;
+
+}
+.blancom{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+
+}
+.rojom{
+    background-color:red;
+    width: 100%;
+    height: 100px;
+    
+}
+.negro{
+    background-color: black;
+    height: 100%;
+    width: 100px;
+}
+.amarillob{
+    background-color: yellow;
+    height: 100%;
+    width: 100px;
+
+}
+.rojob{
+    background-color: red;
+    height: 100%;
+    width: 100px;
+}
+.rojoe{
+    background-color: red;
+    width: 100%;
+    height: 70px;
+}
+.amarilloe{
+    background-color: yellow;
+    width: 100%;
+    height: 65px;
+}
+.rojooe{
+    background-color: red;
+    width: 100%;
+    height: 65px;
+}

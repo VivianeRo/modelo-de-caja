@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: brown;
+
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    
+
+}
+.img{
+    background-color: brown;
+}
+
+img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 30px;
+    
+}
+.producto{
+    font-size: 10px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(1, 1, 53);
+    color: white;
+
+}
+.seccion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(1, 1, 53);
+    
+}
+
+.seccion-1{
+    margin-right: 5px;
+    font-size: 10px;
+    border-radius: 100px;
+    border: 1px solid red;
+    color: white; 
+    background-color:  rgb(1, 1, 53);
+    
+}
+
+.seccion-2{
+    margin-right: 5px;
+    font-size: 10px;
+    border-radius: 100px;
+    border: 1px solid red;
+    color: white;
+    background-color:  rgb(1, 1, 53); 
+}
+.seccion-3{
+    margin-left: 5px;
+    font-size: 10px;
+    border-radius: 100px;
+    border: 1px solid red;
+    color: white; 
+    background-color:  rgb(1, 1, 53);
+}
+.descripcion{
+    font-size:10px ;
+    text-align: center;
+    color: white;
+    background-color:  rgb(1, 1, 53);
+
+
+}
+.descripcion h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.descripcion p{
+    bottom: 50px;
+}
+.precio{
+    color: white;
+    text-align: center;
+    background-color:  rgb(1, 1, 53);
+    
+    
+}
+.PRECIO h4{
+    margin-top: 50px;
+    font-size: 10px;
+    align-self: flex-end;
+}
+.precio p{
+    font-size: 15px;
+}
+button{
+    background-color:rgb(1, 1, 53) ;
+    color: white;
+    width: 400px;
+    height: 96px;
+    
+    
+}
+button span{
+    color: white;
+    background-color: red;
+    border-radius: 100px;
+    font-size: 15px;
+    align-items: end;
+
+}
+
+
